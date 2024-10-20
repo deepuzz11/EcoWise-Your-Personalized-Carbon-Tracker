@@ -2,6 +2,19 @@
 
 ---
 
+## Table of Contents
+- [About the Project](#about-the-project)
+- [What Inspired Me](#what-inspired-me)
+- [What I Learned](#what-i-learned)
+- [How I Built It](#how-i-built-it)
+- [Challenges I Faced](#challenges-i-faced)
+- [Installation Instructions](#installation-instructions)
+- [Usage Instructions](#usage-instructions)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
 ### **About the Project**
 
 *EcoWise* is a web-based application I developed to help individuals track, reduce, and offset their carbon footprints. The increasing urgency of climate change and the need for individual responsibility inspired me to create this project. Many people want to live more sustainably but lack the tools or guidance. My goal was to build a simple yet impactful tool that offers personalized insights and encourages actionable change.
@@ -43,5 +56,35 @@ I learned about the intricacies of carbon footprint calculations and the challen
 
 ---
 
-**EcoWise** represents my belief in the power of individual actions. Through this app, I aim to encourage others to take small, consistent steps toward reducing their carbon footprints and working together for a more sustainable future.
+### **Installation Instructions**
 
+1. Clone the repository: `git clone <repository-url>`
+2. Navigate to the project directory: `cd EcoWise`
+3. Set up a virtual environment: `python -m venv venv`
+4. Activate the virtual environment:
+   - On Windows: `venv\Scripts\activate`
+   - On macOS/Linux: `source venv/bin/activate`
+5. Install the required packages: `pip install -r requirements.txt`
+6. Run the application: `python app.py`
+
+---
+
+### **Usage Instructions**
+
+Once the application is running, navigate to `http://localhost:5000` in your web browser. You can start by registering and then inputting your data to track your carbon footprint.
+
+---
+
+### **Contributing**
+
+If you'd like to contribute to this project, please fork the repository and submit a pull request. Any improvements or suggestions are welcome!
+
+---
+
+### **License**
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+**EcoWise** represents my belief in the power of individual actions. Through this app, I aim to encourage others to take small, consistent steps toward reducing their carbon footprints and working together for a more sustainable future.

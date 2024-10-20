@@ -1,6 +1,6 @@
 # **EcoWise: Track and Reduce Your Carbon Footprint**
 
-**EcoWise** represents my belief in the power of individual actions. Through this app, I aim to encourage others to take small, consistent steps toward reducing their carbon footprints and working together for a more sustainable future.
+**EcoWise** represents my belief in the power of individual actions. Through this application, I aim to encourage others to take small, consistent steps toward reducing their carbon footprints and working together for a more sustainable future.
 
 
 ---

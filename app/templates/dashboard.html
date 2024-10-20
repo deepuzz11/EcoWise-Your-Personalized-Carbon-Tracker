@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>User Dashboard</h2>
+<ul>
+    {% for user in users %}
+        <li>{{ user.username }} - Carbon Footprint: {{ user.carbon_footprint }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

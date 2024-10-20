@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Welcome to EcoWise!</h2>
+<form action="{{ url_for('add_user') }}" method="POST">
+    <input type="text" name="username" placeholder="Enter your username">
+    <input type="submit" value="Add User">
+</form>
+{% endblock %}

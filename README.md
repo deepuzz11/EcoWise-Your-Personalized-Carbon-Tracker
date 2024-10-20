@@ -1,5 +1,8 @@
 # **EcoWise: Track and Reduce Your Carbon Footprint**
 
+**EcoWise** represents my belief in the power of individual actions. Through this app, I aim to encourage others to take small, consistent steps toward reducing their carbon footprints and working together for a more sustainable future.
+
+
 ---
 
 ## Table of Contents
@@ -86,5 +89,3 @@ If you'd like to contribute to this project, please fork the repository and subm
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
-
-**EcoWise** represents my belief in the power of individual actions. Through this app, I aim to encourage others to take small, consistent steps toward reducing their carbon footprints and working together for a more sustainable future.

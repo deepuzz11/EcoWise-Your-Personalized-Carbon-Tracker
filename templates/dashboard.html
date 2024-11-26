@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <div class="card shadow p-3 mb-5 bg-body rounded">
+            <div class="card-body" style="background-image: url('{{ weather_bg }}');">
+                <h3 class="card-title">Weather Insights</h3>
+                <div id="weather-container">
+                    <p id="weather-info">Fetching weather data...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow p-3 mb-5 bg-body rounded">
+            <div class="card-body">
+                <h3 class="card-title">Carbon Footprint Overview</h3>
+                <canvas id="carbonChart" width="400" height="400"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

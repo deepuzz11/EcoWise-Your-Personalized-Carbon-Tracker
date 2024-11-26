@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card shadow p-4">
+    <h2 class="text-center mb-4">Track Your Carbon Footprint</h2>
+    <form method="POST" class="row g-3">
+        <div class="col-md-6">
+            <label for="travel" class="form-label">Travel (km):</label>
+            <input type="number" id="travel" name="travel" class="form-control" required>
+        </div>
+        <div class="col-md-6">
+            <label for="electricity" class="form-label">Electricity Usage (kWh):</label>
+            <input type="number" id="electricity" name="electricity" class="form-control" required>
+        </div>
+        <div class="col-md-6">
+            <label for="water" class="form-label">Water Usage (liters):</label>
+            <input type="number" id="water" name="water" class="form-control" required>
+        </div>
+        <div class="col-md-6">
+            <label for="waste" class="form-label">Waste Production (kg):</label>
+            <input type="number" id="waste" name="waste" class="form-control" required>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-success w-100">Calculate</button>
+        </div>
+    </form>
+</div>
+
+{% if total_footprint is not none %}
+    <div class="alert alert-success mt-4">
+        <h4 class="text-center">Your Total Carbon Footprint: {{ total_footprint }} kg CO2</h4>
+    </div>
+{% endif %}
+{% endblock %}

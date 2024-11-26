@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card shadow p-4">
+    <h2 class="text-center mb-4">Sustainability Tips</h2>
+    <ul>
+        {% for tip in recommendations %}
+        <li>{{ tip }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

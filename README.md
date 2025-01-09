@@ -90,6 +90,19 @@ If you'd like to contribute to this project, please fork the repository and subm
 
 ---
 
+### Repo Stared By:
+
+[![Stargazers repo roster for @deepuzz11/EcoWise-Your-Personalized-Carbon-Tracker](https://reporoster.com/stars/deepuzz11/EcoWise-Your-Personalized-Carbon-Tracker)](https://github.com/deepuzz11/EcoWise-Your-Personalized-Carbon-Tracker/stargazers)
+
+
+---
+
+### Repo Forked By:
+
+[![Forkers repo roster for @deepuzz11/EcoWise-Your-Personalized-Carbon-Tracker](https://reporoster.com/forks/deepuzz11/EcoWise-Your-Personalized-Carbon-Tracker)](https://github.com/deepuzz11/EcoWise-Your-Personalized-Carbon-Tracker/network/members)
+
+---
+
 ### **License**
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

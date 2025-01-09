@@ -84,7 +84,7 @@ If you'd like to contribute to this project, please fork the repository and subm
 
 ---
 
-### Project Contributers: 
+### Project Contributors: 
 <a href="https://github.com/deepuzz11/EcoWise-Your-Personalized-Carbon-Tracker/graphs/contributors">
 <img src="https://contributors-img.web.app/image?repo=deepuzz11/EcoWise-Your-Personalized-Carbon-Tracker"/>
 

@@ -15,7 +15,6 @@
 - [Usage Instructions](#usage-instructions)
 - [Contributing](#contributing)
 - [Project Contributors](#project-contributors)
-- [Repo Starred By:](#repo-starred-by:)
 - [License](#license)
 
 ---

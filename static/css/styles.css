@@ -16,6 +16,11 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    background-color: #555;
+    color: #f4f4f4;
+}
+
 main {
     margin: 20px;
 }

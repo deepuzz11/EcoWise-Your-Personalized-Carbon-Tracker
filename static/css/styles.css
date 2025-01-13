@@ -1,6 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -22,10 +26,13 @@ nav a:hover {
 }
 
 main {
+    flex: 1; 
     margin: 20px;
 }
 
 footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
-    margin-top: 20px;
 }

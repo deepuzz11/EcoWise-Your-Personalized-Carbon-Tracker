@@ -1,0 +1,57 @@
+name: Issues and PR Workflow
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  issue-labeler:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write  
+      contents: read 
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Add labels to issues
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: |
+            enhancement
+            bug
+            high-priority
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
+
+  pr-checks:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write  
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+            pip install -r requirements.txt
+
+      - name: Run tests
+        run: pytest app/tests/
+
+  notify-maintainers:
+    runs-on: ubuntu-latest
+    if: |
+      github.event.issue.labels && contains(join(github.event.issue.labels.*.name, ','), 'high-priority') ||
+      github.event.pull_request.labels && contains(join(github.event.pull_request.labels.*.name, ','), 'high-priority')
+    steps:
+      - name: Notify maintainers for high-priority issues or PRs
+        run: |
+          echo "@maintainers Please review the new high-priority item: ${{ github.event.issue.html_url || github.event.pull_request.html_url }}"

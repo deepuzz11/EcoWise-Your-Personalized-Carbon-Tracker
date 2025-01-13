@@ -82,6 +82,7 @@ Once the application is running, navigate to `http://localhost:5000` in your web
 ### **Contributing**
 
 If you'd like to contribute to this project, please fork the repository and submit a pull request. Any improvements or suggestions are welcome!
+Kindly join this discord link for further queries : https://discord.gg/9nkTgh9n
 
 ---
 

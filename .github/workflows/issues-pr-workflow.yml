@@ -23,7 +23,7 @@ jobs:
           labels: |
             enhancement
             bug
-            high-priority
+            SWOC
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
           
@@ -39,7 +39,7 @@ jobs:
 
       - name: Add labels to pull requests
         run: |
-          gh pr edit ${{ github.event.pull_request.number }} --add-label "enhancement" --add-label "bug" --add-label "high-priority"
+          gh pr edit ${{ github.event.pull_request.number }} --add-label "enhancement" --add-label "bug" --add-label "SWOC"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

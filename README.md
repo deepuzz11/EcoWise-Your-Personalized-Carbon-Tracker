@@ -73,7 +73,20 @@ I learned about the intricacies of carbon footprint calculations and the challen
 
 ---
 
-### **Usage Instructions**
+## Dockerizing the Application
+
+### Build the Docker Image
+```bash
+docker build -t ecowise .
+```
+### Run the Docker Container
+```bash
+docker run -p 5000:5000 ecowise
+```
+
+---
+
+## **Usage Instructions**
 
 Once the application is running, navigate to `http://localhost:5000` in your web browser. You can start by registering and then inputting your data to track your carbon footprint.
 
